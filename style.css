@@ -35,3 +35,26 @@ nav {
     transform: scale(1.1);
     transition: all ease-in-out 0.5ms;
 }
+
+/* Jumbotron */
+
+
+#jumbotron {
+    background: linear-gradient(#F4CC70, #FFFFFF);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#more {
+    background-color: white;
+    color: #DE7A22;
+    border-color: #DE7A22;
+    transition: all ease-in-out 0.5ms;
+}
+
+#more:hover {
+    background-color: #DE7A22;
+    border-color: white;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.5ms;
+}
