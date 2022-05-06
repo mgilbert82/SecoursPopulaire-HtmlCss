@@ -165,3 +165,23 @@ nav {
     transition: all ease-in-out 0.5ms;
     border: 1px solid #DE7A22;    
 }
+
+/* Footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: black;  
+}
+
+footer, a {
+    transition: all ease-in-out 0.5ms;
+}
+
+footer, a:hover {
+    color: #F4CC70;
+    transition: all ease-in-out 0.5ms;
+}
