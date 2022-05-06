@@ -14,147 +14,177 @@
 </head>
 
 <body>
-      <!-- Menu  de navigation -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="menuBar">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="accueil.html"><img src="img/logoSP10.png" alt="logo SP" class="rounded rounded-circle" id="logo-SP"/></a>
-          <p class="mb-2 mb-lg-0 text-left d-none d-md-block fs-6 fw-bold">Secours Populaire Saint Cyr l'Ecole</p>
-          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
-          <div class="collapse navbar-collapse flex-row-reverse bg-light" id="navbarSupportedContent">
-            <div class="navbar-nav mb-2 mb-lg-0 text-center" id="menuContent">
-              <div class="nav-item"><a class="nav-link active" aria-current="page" href="accueil.html" id="btnNav">Accueil</a></div>
-              <div class="nav-item"><a class="nav-link" href="nosactions.html"  id="btnNav">Nos actions</a></div>
-              <div class="nav-item"><a class="nav-link" href="noussoutenir.html"  id="btnNav">Nous soutenir</a></div>
-              <div class="nav-item"><a class="nav-link" href="qui-sommes-nous.html"  id="btnNav">Qui sommes nous ?</a></div>
+  <!-- Menu  de navigation -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="menuBar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="accueil.html"><img src="img/logoSP10.png" alt="logo SP" class="rounded rounded-circle" id="logo-SP"/></a>
+              <p class="mb-2 mb-lg-0 text-left d-none d-md-block fs-6 fw-bold">Secours Populaire Saint Cyr l'Ecole</p>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse flex-row-reverse bg-light" id="navbarSupportedContent">
+                <div class="navbar-nav mb-2 mb-lg-0 text-center" id="menuContent">
+                  <div class="nav-item"><a class="nav-link active" aria-current="page" href="accueil.html" id="btnNav">Accueil</a></div>
+                  <div class="nav-item"><a class="nav-link" href="nosactions.html"  id="btnNav">Nos actions</a></div>
+                  <div class="nav-item"><a class="nav-link" href="noussoutenir.html"  id="btnNav">Nous soutenir</a></div>
+                  <div class="nav-item"><a class="nav-link" href="qui-sommes-nous.html"  id="btnNav">Qui sommes nous ?</a></div>
+                </div>
+              </div>
             </div>
+          </nav>
+    <!-- Fin du menu de navigation -->
+
+    <!-- Mise en avant d'évènements via un Caroussel-->
+    <div id="carouselExampleDark" class="carousel" data-bs-ride="carousel">
+      
+      <!-- Bouton du carrousel -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      
+      <!-- Contenu du carrousel -->
+      <div class="carousel-inner">
+       
+        <!-- 1ère image du carrousel -->
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/caroussel/carrousel2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Soutien scolaire</h5>
+            <p>L' aide aux devoirs des enfants par nos bénévoles.</p>
           </div>
         </div>
-      </nav>
-<!-- Fin du menu de navigation -->
 
-   <!-- Mise en avant d'évènements via un Caroussel-->
-   <div id="carouselExampleDark" class="carousel" data-bs-ride="carousel">
-      
-    <!-- Bouton du carrousel -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    
-    <!-- Contenu du carrousel -->
-    <div class="carousel-inner">
-     
-      <!-- 1ère image du carrousel -->
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="img/caroussel/carrousel2.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Soutien scolaire</h5>
-          <p>L' aide aux devoirs des enfants par nos bénévoles.</p>
+        <!-- 2ème image du carrousel -->
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/caroussel/carrousel3.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Sorties éducatives</h5>
+            <p>La plage, la montagne, les randonnées sont des moments de partage et de découverte.</p>
+          </div>
         </div>
-      </div>
 
-      <!-- 2ème image du carrousel -->
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="img/caroussel/carrousel3.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Sorties éducatives</h5>
-          <p>La plage, la montagne, les randonnées sont des moments de partage et de découverte.</p>
+        <!-- 3ème image du carrousel -->
+        <div class="carousel-item">
+          <img src="img/event/hand2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Aidez-nous</h5>
+            <p>Nous avons besoin de vous, de votre temps et de votre énergie.</p>
+          </div>
         </div>
-      </div>
 
-      <!-- 3ème image du carrousel -->
-      <div class="carousel-item">
-        <img src="img/event/hand2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Aidez-nous</h5>
-          <p>Nous avons besoin de vous, de votre temps et de votre énergie.</p>
-        </div>
       </div>
 
     </div>
+  <!-- Fin du Caroussel-->
 
+  <!-- Jumbotron -->
+  <div class="jumbotron p-5 pb-4" id="jumbotron">
+    <h1 class="display-4">Bienvenue sur le site du <br>Secours Populaire de St Cyr l'Ecole</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+    <hr class="my-4">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <p class="lead text-end"><a class="btn" id= "more" href="#" role="button">En savoir plus</a></p>
   </div>
-<!-- Fin du Caroussel-->
+  <!-- Fin du Jumbotron -->
 
-    <!-- Jumbotron -->
-    <div class="jumbotron p-5 pb-4" id="jumbotron">
-        <h1 class="display-4">Bienvenue sur le site du <br>Secours Populaire de St Cyr l'Ecole</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-        <hr class="my-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p class="lead text-end"><a class="btn" id= "more" href="#" role="button">En savoir plus</a></p>
-    </div>
-    <!-- Fin du Jumbotron -->
+  
 
-    <div class="container-fluid pt-5 pb-5">
+  <!--1ère ligne-->
+  <div class="container-fluid pt-5 pb-5">
 
-        <!--Dernier article -->  
-        <div class="row flex-row m-2 justify-content-evenly">
+    <div class="row flex-row m-2 justify-content-evenly">
 
-              
-            <div class="col-lg-3 rounded p-3 m-2 pb-5" id="lastPost">
+      <!--Dernier article -->    
+      <div class="col-lg-3 rounded p-3 m-2 pb-5" id="lastPost">
                 
-                <h3>Dernier article posté</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="mt-2 px-2 text-end"><button type="submit" id="btnLire">Lire <em class="bi bi-arrow-right-circle"></em></button></div>
+        <h3>Dernier article posté</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="mt-2 px-2 text-end">
+          <button type="submit" id="btnLire">Lire <em class="bi bi-arrow-right-circle"></em></button>
+          </div>
         </div>
-    
+
         <!-- Prochaine évênement -->
         <div class="col-lg-3 rounded p-3 m-2 pb-5" id="nextEvent">
-            <h3>Prochain évênement</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="mt-2 px-2 text-end"><button type="submit" id="btnLire">Lire <em class="bi bi-arrow-right-circle"></em></button></div>
+
+          <h3>Prochain évênement</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="mt-2 px-2 text-end">
+            <button type="submit" id="btnLire">Lire <em class="bi bi-arrow-right-circle"></em></button>
+          </div>
+
         </div>
-    
+
         <!-- Etre Bénévole -->
         <div class="col-lg-3 rounded p-3 m-2 pb-5" id="volunteerPost">
-            <h3>Être bénévole c'est quoi</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <div class="mt-2 px-2 text-end"><button type="submit" id="btnLire">Lire <em class="bi bi-arrow-right-circle"></em></button></div>
+
+          <h3>Être bénévole c'est quoi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="mt-2 px-2 text-end">
+            <button type="submit" id="btnLire">Lire <em class="bi bi-arrow-right-circle"></em></button>
+          </div>
         </div>
+
+      </div>
+
     </div>
 
     <!-- 2ème ligne -->
     <div id="newsletter" class="pt-5 pb-5">
 
-        <!-- Newsletter-->
-        <div class="m-2 p-4 text-center">
-            <h3 class="text-center">Recevoir nos actualités <em class="fa-solid fa-wave-sine"></em> <em class="fa-solid fa-paper-plane" id="icoPlane"></em></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <form id="emailContact" class="ms-auto me-auto w-50">
-                <label for="email" class="form-label">Votre Email:</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                <button type="submit" class="btn me-auto ms-auto w-auto text-center">Je m'inscris <em class="bi bi-envelope"></em></button>
-            </form>
-        </div>
+      <!-- Newsletter-->
+      <div class="m-2 p-4 text-center">
+
+        <h3 class="text-center">Recevoir nos actualités <em class="fa-solid fa-wave-sine"></em> <em class="fa-solid fa-paper-plane" id="icoPlane"></em></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <form id="emailContact" class="ms-auto me-auto w-50">
+          <label for="email" class="form-label">Votre Email:</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+          <button type="submit" class="btn me-auto ms-auto w-auto text-center">Je m'inscris <em class="bi bi-envelope"></em></button>
+        </form>
+      </div>
+
     </div>
 
     <!-- 3ème ligne -->
     <div id="supportUs" class="pt-5 pb-5">
-        <!-- Nous soutenir -->
-        <div class="m-2 p-4 text-center">
-            <h3>Nous soutenir <em class="fa-solid fa-hand-holding-heart"></em></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur.</p>
-            <button type="submit" class="btn me-auto ms-auto w-auto text-center" id="btnSupport">Je soutiens <em class="bi bi-hand-thumbs-up"></em></button>
-        </div>
+        
+      <!-- Nous soutenir -->
+      <div class="m-2 p-4 text-center">
+
+        <h3>Nous soutenir <em class="fa-solid fa-hand-holding-heart"></em></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+           esse cillum dolore eu fugiat nulla pariatur.</p>
+           <button type="submit" class="btn me-auto ms-auto w-auto text-center" id="btnSupport">Je soutiens <em class="bi bi-hand-thumbs-up"></em></button>
+
+      </div>
+
     </div>
+
+
 </body>
 
-    <!-- Footer -->
-    <footer class="d-block w-100">
-        <div class="container">
-            <div class="row d-flex justify-content-around">
-                <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Mentions légales</a></div>
-                <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Politique de confidentialité</a></div>
-                <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Plan du site</a></div>
-                <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Nous contacter</a></div>
-            </div>
-        </div>
-    </footer>
+  <!-- Footer -->
+  <footer class="d-block w-100">
+    <div class="container">
+      <div class="row d-flex justify-content-around">
+        <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Mentions légales</a></div>
+        <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Politique de confidentialité</a></div>
+        <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Plan du site</a></div>
+        <div class="col-lg-2 p-3 m-2"><a href="#" class="text-white text-decoration-none text-center">Nous contacter</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+
+  <!--Font awesome -->
+  <script src="https://kit.fontawesome.com/3524a5a0f2.js" crossorigin="anonymous"></script>
+</html>
