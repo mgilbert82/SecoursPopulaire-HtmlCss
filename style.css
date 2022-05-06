@@ -1,0 +1,37 @@
+/* import de polices google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Radio+Canada&family=Rubik:wght@300;400&family=Ubuntu:wght@300;400&display=swap');
+
+/* import des icons Bootstraps */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+/* CSS liés au body et HTML général*/
+html, body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu navigation */
+#menuBar {
+    font-family: 'Radio Canada', sans-serif;
+    box-shadow: 0 0 15px rgb(234, 226, 186);
+}
+
+#logo-SP {
+    border-radius: 50px;
+    box-shadow: 0 0 10px grey;
+    width: 70%;
+    z-index: 1rem;
+}
+
+nav {
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    height: 70px;
+}
+#btnNav:hover {
+    color: #DE7A22;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5ms;
+}
