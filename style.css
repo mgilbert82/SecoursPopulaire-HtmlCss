@@ -58,3 +58,110 @@ nav {
     color: #FFFFFF;
     transition: all ease-in-out 0.5ms;
 }
+
+/* Page accueil */
+#lastPost, #nextEvent, #volunteerPost {
+    box-shadow: 5px 10px 15px rgb(122, 120, 110);
+}
+
+#lastPost{
+    background: url("img/event/news.jpg");
+    background-position: center;
+    object-fit: cover;
+
+}
+
+#nextEvent {
+    background: url("img/event/coming-soon.jpg");
+    background-position: center;
+    object-fit: cover;
+
+}
+
+#volunteerPost {
+    background: url("img/event/hand.jpg");
+    background-position: center;
+    object-fit: cover;
+}
+
+#lastPost>h3, #nextEvent>h3, #volunteerPost>h3 {
+    font-weight: 600;
+    color:#F4CC70;
+}
+
+#lastPost>p, #nextEvent>p, #volunteerPost>p {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+#btnLire {
+    background-color: white;
+    color:#DE7A22;
+    border-color:#F4CC70;
+    transition: all ease-in-out 0.5ms;
+    
+}
+
+#btnLire:hover {
+    background-color:#F4CC70;
+    color:white;
+    border: 1px solid white;
+    transition: all ease-in-out 0.5ms;
+    transform: scale(1.1);
+}
+
+#newsletter {
+    background:linear-gradient(#FFFFFF, #DE7A22, #F4CC70);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#newsletter>h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+#newsletter>p {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+#emailContact {
+    width: 40%;
+    align-items: center;
+}
+
+#emailContact>button {
+    background-color:#F4CC70;
+    color: black;
+    text-align: end;
+    transition: all ease-in-out 0.5ms;
+}
+
+#emailContact>button:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 0.5ms;
+}
+
+#supportUs {
+    background:linear-gradient(#F4CC70, #FFFFFF);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#btnSupport {
+    background-color: #DE7A22;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.5ms;
+}
+
+#btnSupport:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 0.5ms;
+    border: 1px solid #DE7A22;    
+}
