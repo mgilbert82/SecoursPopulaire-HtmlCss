@@ -185,3 +185,38 @@ footer, a:hover {
     color: #F4CC70;
     transition: all ease-in-out 0.5ms;
 }
+
+/* Page nos actions */
+
+.actions_1 {
+    background-image: url('img/event/pencils.jpg');
+    background-size: cover;
+    box-shadow: 5px 5px 15px rgb(122, 120, 110);
+
+}
+
+
+.actions_2 {
+    background-image: url('img/event/louvre.jpg');
+    background-size: cover;
+    box-shadow: 5px 5px 15px rgb(122, 120, 110);
+}
+
+
+
+.actions_3 {
+    background-image: url('img/event/braderie2.jpeg');
+    background-size: cover;
+    box-shadow: 5px 5px 15px rgb(122, 120, 110);
+
+}
+
+#contribution {
+    background:linear-gradient(#FFFFFF, #F4CC70);
+}
+
+.support_1 {
+    background-image: url('img/event/benevole.jpg');
+    background-size: cover;
+    transition: all 1s;
+}
