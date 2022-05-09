@@ -230,3 +230,26 @@ footer, a:hover {
     background: linear-gradient(#F4CC70, #FFFFFF);
     border-color: 1px solid #DE7A22;
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    #illustration {
+        height: 100%;
+    }
+
+    #carousel {
+        height: 100%;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
