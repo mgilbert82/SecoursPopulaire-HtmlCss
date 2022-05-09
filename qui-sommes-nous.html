@@ -17,25 +17,104 @@
 </head>
 <body>
 
-      <!-- Navigation menu -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="menuBar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="accueil.html"><img src="img/logoSP10.png" alt="logo SP" class="rounded rounded-circle" id="logo-SP"/></a>
-      <p class="mb-2 mb-lg-0 text-left d-none d-md-block fs-6 fw-bold">Secours Populaire Saint Cyr l'Ecole</p>
-      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse flex-row-reverse bg-light" id="navbarSupportedContent">
-        <div class="navbar-nav mb-2 mb-lg-0 text-center" id="menuContent">
-          <div class="nav-item"><a class="nav-link" aria-current="page" href="accueil.html" id="btnNav">Accueil</a></div>
-          <div class="nav-item"><a class="nav-link" href="nosactions.html"  id="btnNav">Nos actions</a></div>
-          <div class="nav-item"><a class="nav-link" href="noussoutenir.html"  id="btnNav">Nous soutenir</a></div>
-          <div class="nav-item"><a class="nav-link active" href="qui-sommes-nous.html"  id="btnNav">Qui sommes nous ?</a></div>
+    <!-- Navigation menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="menuBar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="accueil.html"><img src="img/logoSP10.png" alt="logo SP" class="rounded rounded-circle" id="logo-SP"/></a>
+            <p class="mb-2 mb-lg-0 text-left d-none d-md-block fs-6 fw-bold">Secours Populaire Saint Cyr l'Ecole</p>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse flex-row-reverse bg-light" id="navbarSupportedContent">
+                <div class="navbar-nav mb-2 mb-lg-0 text-center" id="menuContent">
+                    <div class="nav-item"><a class="nav-link" aria-current="page" href="accueil.html" id="btnNav">Accueil</a></div>
+                    <div class="nav-item"><a class="nav-link" href="nosactions.html"  id="btnNav">Nos actions</a></div>
+                    <div class="nav-item"><a class="nav-link" href="noussoutenir.html"  id="btnNav">Nous soutenir</a></div>
+                    <div class="nav-item"><a class="nav-link active" href="qui-sommes-nous.html"  id="btnNav">Qui sommes nous ?</a></div>
+                </div>
+            </div>
         </div>
-      </div>
+    </nav>
+
+    <!-- Mise en avant du dernier évênement-->
+    <img src="img/event/people.jpg" class="d-block w-100 h-50 img-fluid" alt="people">
+
+    <!-- Jumbotron -->
+    <div class="jumbotron p-4 pe-2" id="jumbotron">
+        <h1 class="display-4">Nous sommes des hommes et des femmes luttant contre la précarité et la misère sociale</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <hr class="my-4">
+        <p class="lead text-end"><a class="btn" id="more" href="#" role="button">En savoir plus</a></p>
     </div>
-  </nav>
+    <!-- Fin du Jumbotron -->
+
+        <!-- Bloc d'informations -->
+        <div class="container">
+
+            <div class="row d-flex justify-content-center">
+              
+              <!-- Sécrétariat générale-->
+              <div class="col-lg-4 col-sm-12 p-2">
+                <div class="card border-0" id="carte">
+                  <div class="card-header text-white bg-black text-center"><h2>Secrétariat général</h2></div>
+                  <div class="card-body">
+                    <h3 class="card-title">Comité du Secours populairede Saint Cyr l'Ecole et de Fontenay le Fleury</h3>
+                    <p class="card-text">
+                    <address>2 rue Pierre Courtade<br> 78210 Saint Cyr l'Ecole</address>
+                    <p>Téléphone: <a href="tel:+33130239314" class="text-decoration-non fw-bold">01 30 23 93 14</a></p>
+                    <p>Mail: <a href="mailto:saint.cyr.lecole@spf78.org" class="text-decoration-none">saint.cyr.lecole@spf78.org</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Siège Sociale-->
+        <div class="col-lg-4 col-sm-12 p-2">
+            <div class="card border-0" id="carte">
+              <div class="card-header text-white bg-black text-center"><h2>Siège social</h2></div>
+              <div class="card-body">
+                <h3 class="card-title">Fédération départementale des Yvelines du secours populaire</h3>
+                <p class="card-text">
+                  <address>25 Avenue Paul Vaillant Couturier<br> 78190 Trappes</address>
+                  <p>Téléphone: <a href="tel:+33130504626" class="text-decoration-none fw-bold">01 30 50 46 26</a></p>
+                  <p>Mail: <a href="mailto:contact@spf78.org" class="text-decoration-none">contact@spf78.org</a></p>
+                  <p>Site internet de la Fédération des Yvelines: <a href="www.spf78.org">www.spf78.org</a></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horaire de permanence-->
+        <div class="col-lg-4 col-sm-12 p-2">
+            <div class="card border-0" id="carte">
+              <div class="card-header  text-white bg-black text-center">
+                <h2>Renseignements pratiques</h2>
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Horaires de permanence</h3>
+                <p class="card-text">La permanence d'accueil est ouverte les lundis et jeudis de 13h30 à 17h00.</p>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        <div class="row d-flex justify-content-center ms-auto me-auto">
+            <div class="col m-2 p-2">
+              <div class="card border-0" id="carte">
+                <div class="card-header text-white bg-black text-center">
+                  <h2>Comment bénéficier de l'aide</h2>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Détail des aides dispensées</h3>
+                  <p class="card-text">Pour bénéficier des actions du Comité, venir s'inscrire à la permanence les jours d'accueil.
+                    Les aides alimentaires d'urgence sont distribuées chaque jour de permanence.           
+                    Les distributions alimentaires mensuelles sont faites le vendredi. Se renseigner auprès du Comité pour connaître les dates.
+                    Soutien scolaire les lundi, mardi, mercredi et vendredi après les cours.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 </body>
 
