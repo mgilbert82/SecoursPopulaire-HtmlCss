@@ -98,17 +98,20 @@ nav {
 #btnLire {
     background-color: white;
     color:#DE7A22;
-    border-color:#F4CC70;
-    transition: all ease-in-out 0.5ms;
+    transition: all ease-in 0.9ms;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
     
 }
 
 #btnLire:hover {
     background-color:#F4CC70;
     color:white;
-    border: 1px solid white;
-    transition: all ease-in-out 0.5ms;
+    transition: all ease-in 0.9ms;
     transform: scale(1.1);
+    text-align: right;
+
 }
 
 #newsletter {
@@ -139,12 +142,14 @@ nav {
     background-color:#F4CC70;
     color: black;
     text-align: end;
-    transition: all ease-in-out 0.5ms;
+    transition: all ease-in-out 0.9ms;
 }
 
 #emailContact>button:hover {
-    transform: scale(1.2);
-    transition: all ease-in-out 0.5ms;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.9ms;
+    text-decoration: dashed;
+    box-shadow: 5px 5px 15px #DE7A22;
 }
 
 #supportUs {
@@ -157,13 +162,15 @@ nav {
 #btnSupport {
     background-color: #DE7A22;
     color: #FFFFFF;
-    transition: all ease-in-out 0.5ms;
+    transition: all ease-in-out 0.9ms;
 }
 
 #btnSupport:hover {
-    transform: scale(1.2);
-    transition: all ease-in-out 0.5ms;
-    border: 1px solid #DE7A22;    
+    transform: scale(1.1);
+    transition: all ease-in-out 0.9ms;
+    border: 1px solid #DE7A22; 
+    box-shadow: 5px 5px 15px #F4CC70;
+   
 }
 
 /* Footer */
@@ -178,12 +185,12 @@ footer {
 }
 
 footer, a {
-    transition: all ease-in-out 0.5ms;
+    transition: all ease-in-out 0.9ms;
 }
 
 footer, a:hover {
     color: #F4CC70;
-    transition: all ease-in-out 0.5ms;
+    transition: all ease-in-out 0.9ms;
 }
 
 /* Page nos actions */
@@ -202,8 +209,6 @@ footer, a:hover {
     box-shadow: 5px 5px 15px rgb(122, 120, 110);
 }
 
-
-
 .actions_3 {
     background-image: url('img/event/braderie2.jpeg');
     background-size: cover;
@@ -219,4 +224,9 @@ footer, a:hover {
     background-image: url('img/event/benevole.jpg');
     background-size: cover;
     transition: all 1s;
+}
+
+#carte {
+    background: linear-gradient(#F4CC70, #FFFFFF);
+    border-color: 1px solid #DE7A22;
 }
