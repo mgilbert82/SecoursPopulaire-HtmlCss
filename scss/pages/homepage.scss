@@ -1,0 +1,116 @@
+@import "scss/components/colors";
+
+/* Page accueil */
+#lastPost, #nextEvent, #volunteerPost {
+    box-shadow: 5px 10px 15px $greyDark;
+}
+
+#lastPost{
+    background: url("img/event/people.jpg");
+    background-position: center;
+    object-fit: contain;
+
+}
+
+#nextEvent {
+    background: url("img/event/coming-soon.jpg");
+    background-position: center;
+    object-fit: cover;
+
+}
+
+#volunteerPost {
+    background: url("img/event/hand.jpg");
+    background-position: center;
+    object-fit: cover;
+}
+
+#lastPost>h3, #nextEvent>h3, #volunteerPost>h3 {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#lastPost>p, #nextEvent>p, #volunteerPost>p {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: $greyLight;
+}
+
+#btnLire {
+    background-color:$brownLight;
+    color:black;
+    transition: 0.5s;
+    min-height: 30px;
+    max-height: auto;
+    width: 70px;
+    font-size: 15px;
+    border-radius: 50px;
+    text-align: center;
+    border: none;
+    
+}
+
+#btnLire:hover {
+    background-color: $orangeDark;
+    color:white;
+    transition: 0.5s;
+}
+
+#newsletter {
+    background:linear-gradient($brownLight, $orangeDark, $yellowPrimary);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#newsletter>h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+#newsletter {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#emailContact {
+    width: 40%;
+    align-items: center;
+}
+
+#emailContact>button {
+    background-color:$yellowPrimary;
+    color: black;
+    text-align: end;
+    transition: all ease 0.5s;
+}
+
+#emailContact>button:hover {
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    text-decoration: dashed;
+    box-shadow: 5px 5px 15px $orangeDark;
+}
+
+#supportUs {
+    background:linear-gradient($yellowPrimary, $brownLight);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#btnSupport {
+    background-color: $orangeDark;
+    color: #FFFFFF;
+    transition: all ease 0.5s;
+}
+
+#btnSupport:hover {
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    border: 1px solid $orangeDark; 
+    box-shadow: 5px 5px 15px $yellowPrimary;
+   
+}

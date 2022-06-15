@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cssnano": "^5.1.11",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0"
+  },
+  "name": "secourspopulaire-htmlcss",
+  "description": "## Contexte: Projet étude en langages HTML et CSS / Utilisation de la bibliotèque Bootstrap ___________________________________________________________________________________________________",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node-sass scss/main.scss style.css --watch",
+    "prod": "node-sass scss/main.scss style.css && postcss style.css --use cssnano -o style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgilbert82/SecoursPopulaire-HtmlCss.git"
+  },
+  "author": "Michel GILBERT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgilbert82/SecoursPopulaire-HtmlCss/issues"
+  },
+  "homepage": "https://github.com/mgilbert82/SecoursPopulaire-HtmlCss#readme"
+}

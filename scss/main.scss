@@ -1,0 +1,19 @@
+/* Bases*/
+@import 'base';
+@import 'mediaqueries';
+
+/*Layout*/
+
+@import 'layout/navbar';
+@import 'layout/footer';
+
+/* Pages */
+@import 'pages/homepage';
+@import 'pages/actionspage';
+
+/*Components*/
+@import 'components/colors';
+@import 'components/fonts';
+@import 'components/jumbotron';
+
+

@@ -1,0 +1,22 @@
+@import "scss/components/colors";
+
+/* Jumbotron */
+#jumbotron {
+    background: linear-gradient($yellowPrimary, $greyLight);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#more {
+    background-color: white;
+    color: $orangeDark;
+    border-color: $orangeDark;
+    transition: all ease-in-out 0.5s;
+}
+
+#more:hover {
+    background-color: $orangeDark;
+    border-color: $greyDark;
+    color: #FFFFFF;
+    transition: all ease-in-out 0.5ms;
+}

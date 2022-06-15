@@ -1,270 +1,207 @@
-/* import de polices google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Radio+Canada&family=Rubik:wght@300;400&family=Ubuntu:wght@300;400&display=swap');
-
-/* import des icons Bootstraps */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-
-.color {
-color: #F4CC70;
-color: #FFB064;
-color: #DE7A22;
-color: #E7DAC1;
-color: #A28C76;
-color: #716C60;
-}
-
+@charset "UTF-8";
+/* Bases*/
 /* CSS liés au body et HTML général*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Radio+Canada&family=Rubik:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 html, body {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    background-color: #E7DAC1;
-}
-
-/* Menu navigation */
-#menuBar {
-    font-family: 'Radio Canada', sans-serif;
-    box-shadow: 0 0 15px #E7DAC1;
-}
-
-#logo-SP {
-    border-radius: 50px;
-    box-shadow: 0 0 10px #716C60;
-    width: 70%;
-    z-index: 1rem;
-}
-
-nav {
-    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
-    height: 70px;
-}
-#btnNav:hover {
-    color: #DE7A22;
-    font-weight: 600;
-    transform: scale(1.1);
-    transition: all ease-in-out 0.5s;
-}
-
-/* Jumbotron */
-
-
-#jumbotron {
-    background: linear-gradient(#F4CC70, #E7DAC1);
-    font-family: 'Poppins', sans-serif;
-
-}
-
-#more {
-    background-color: white;
-    color: #DE7A22;
-    border-color: #DE7A22;
-    transition: all ease-in-out 0.5s;
-}
-
-#more:hover {
-    background-color: #DE7A22;
-    border-color: #716C60;
-    color: #FFFFFF;
-    transition: all ease-in-out 0.5ms;
-}
-
-/* Page accueil */
-#lastPost, #nextEvent, #volunteerPost {
-    box-shadow: 5px 10px 15px #716C60;
-}
-
-#lastPost{
-    background: url("img/event/people.jpg");
-    background-position: center;
-    object-fit: contain;
-
-}
-
-#nextEvent {
-    background: url("img/event/coming-soon.jpg");
-    background-position: center;
-    object-fit: cover;
-
-}
-
-#volunteerPost {
-    background: url("img/event/hand.jpg");
-    background-position: center;
-    object-fit: cover;
-}
-
-#lastPost>h3, #nextEvent>h3, #volunteerPost>h3 {
-    font-weight: 600;
-    color: #FFFFFF;
-}
-
-#lastPost>p, #nextEvent>p, #volunteerPost>p {
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-    color: #E7DAC1;
-}
-
-#btnLire {
-    background-color:#E7DAC1;
-    color:black;
-    transition: 0.5s;
-    min-height: 30px;
-    max-height: auto;
-    width: 70px;
-    font-size: 15px;
-    border-radius: 50px;
-    text-align: center;
-    border: none;
-    
-}
-
-#btnLire:hover {
-    background-color: #DE7A22;
-    color:white;
-    transition: 0.5s;
-}
-
-#newsletter {
-    background:linear-gradient(#E7DAC1, #DE7A22, #F4CC70);
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-#newsletter>h3 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: black;
-}
-
-#newsletter {
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
-    color: black;
-}
-
-#emailContact {
-    width: 40%;
-    align-items: center;
-}
-
-#emailContact>button {
-    background-color:#F4CC70;
-    color: black;
-    text-align: end;
-    transition: all ease 0.5s;
-}
-
-#emailContact>button:hover {
-    transform: scale(1.1);
-    transition: all ease 0.5s;
-    text-decoration: dashed;
-    box-shadow: 5px 5px 15px #DE7A22;
-}
-
-#supportUs {
-    background:linear-gradient(#F4CC70, #E7DAC1);
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-#btnSupport {
-    background-color: #DE7A22;
-    color: #FFFFFF;
-    transition: all ease 0.5s;
-}
-
-#btnSupport:hover {
-    transform: scale(1.1);
-    transition: all ease 0.5s;
-    border: 1px solid #DE7A22; 
-    box-shadow: 5px 5px 15px #F4CC70;
-   
-}
-
-/* Footer */
-
-footer {
-    width: 100%;
-    text-align: center;
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color: black;  
-}
-
-/* Page nos actions */
-
-.actions_1 {
-    background-image: url('img/event/pencils.jpg');
-    background-size: cover;
-    box-shadow: 5px 5px 15px #716C60;
-
-}
-
-
-.actions_2 {
-    background-image: url('img/event/louvre.jpg');
-    background-size: cover;
-    box-shadow: 5px 5px 15px #716C60;
-}
-
-.actions_3 {
-    background-image: url('img/event/braderie2.jpeg');
-    background-size: cover;
-    box-shadow: 5px 5px 15px #716C60;
-
-}
-
-#contribution {
-    background:linear-gradient(#E7DAC1, #F4CC70);
-}
-
-.support_1 {
-    background-image: url('img/event/benevole.jpg');
-    background-size: cover;
-    transition: all 1s;
-}
-
-#carte {
-    background: #FFFFFF;
-    border-color: 1px solid #DE7A22;
-}
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #F4CC70; }
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { 
-    #illustration {
-        margin-top: 30px;
-    }
-
-    #carousel {
-        margin-top: 30px;
-    }
-
- }
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
+@media (max-width: 576px) {
+  #illustration {
+    margin-top: 30px; }
+  #carousel {
+    margin-top: 30px; } }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-    #logo-SP {
-        margin-top:30px;
-    }
- }
+@media (min-width: 992px) {
+  #logo-SP {
+    margin-top: 30px; } }
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-    #logo-SP {
-        margin-top:30px;
-    }
-}
+  #logo-SP {
+    margin-top: 30px; } }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) { 
-    #logo-SP {
-        margin-top:30px;
-    }
- }
+@media (min-width: 1400px) {
+  #logo-SP {
+    margin-top: 30px; } }
+
+/*Layout*/
+/* Menu navigation */
+#menuBar {
+  font-family: 'Radio Canada', sans-serif;
+  box-shadow: 0 0 15px #F4CC70; }
+
+#logo-SP {
+  border-radius: 50px;
+  box-shadow: 0 0 10px #716C60;
+  width: 70%;
+  z-index: 1rem; }
+
+nav {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  height: 70px; }
+
+#btnNav:hover {
+  color: #DE7A22;
+  font-weight: 600;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s; }
+
+/* Footer */
+footer {
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: black; }
+
+/* Pages */
+/* Page accueil */
+#lastPost, #nextEvent, #volunteerPost {
+  box-shadow: 5px 10px 15px #716C60; }
+
+#lastPost {
+  background: url("img/event/people.jpg");
+  background-position: center;
+  object-fit: contain; }
+
+#nextEvent {
+  background: url("img/event/coming-soon.jpg");
+  background-position: center;
+  object-fit: cover; }
+
+#volunteerPost {
+  background: url("img/event/hand.jpg");
+  background-position: center;
+  object-fit: cover; }
+
+#lastPost > h3, #nextEvent > h3, #volunteerPost > h3 {
+  font-weight: 600;
+  color: #FFFFFF; }
+
+#lastPost > p, #nextEvent > p, #volunteerPost > p {
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  color: #E7DAC1; }
+
+#btnLire {
+  background-color: #A28C76;
+  color: black;
+  transition: 0.5s;
+  min-height: 30px;
+  max-height: auto;
+  width: 70px;
+  font-size: 15px;
+  border-radius: 50px;
+  text-align: center;
+  border: none; }
+
+#btnLire:hover {
+  background-color: #DE7A22;
+  color: white;
+  transition: 0.5s; }
+
+#newsletter {
+  background: linear-gradient(#A28C76, #DE7A22, #F4CC70);
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0; }
+
+#newsletter > h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: black; }
+
+#newsletter {
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  color: black; }
+
+#emailContact {
+  width: 40%;
+  align-items: center; }
+
+#emailContact > button {
+  background-color: #F4CC70;
+  color: black;
+  text-align: end;
+  transition: all ease 0.5s; }
+
+#emailContact > button:hover {
+  transform: scale(1.1);
+  transition: all ease 0.5s;
+  text-decoration: dashed;
+  box-shadow: 5px 5px 15px #DE7A22; }
+
+#supportUs {
+  background: linear-gradient(#F4CC70, #A28C76);
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0; }
+
+#btnSupport {
+  background-color: #DE7A22;
+  color: #FFFFFF;
+  transition: all ease 0.5s; }
+
+#btnSupport:hover {
+  transform: scale(1.1);
+  transition: all ease 0.5s;
+  border: 1px solid #DE7A22;
+  box-shadow: 5px 5px 15px #F4CC70; }
+
+/* Page nos actions */
+.actions_1 {
+  background-image: url("img/event/pencils.jpg");
+  background-size: cover;
+  box-shadow: 5px 5px 15px #716C60; }
+
+.actions_2 {
+  background-image: url("img/event/louvre.jpg");
+  background-size: cover;
+  box-shadow: 5px 5px 15px #716C60; }
+
+.actions_3 {
+  background-image: url("img/event/braderie2.jpeg");
+  background-size: cover;
+  box-shadow: 5px 5px 15px #716C60; }
+
+#contribution {
+  background: linear-gradient(#E7DAC1, #F4CC70); }
+
+.support_1 {
+  background-image: url("img/event/benevole.jpg");
+  background-size: cover;
+  transition: all 1s; }
+
+#carte {
+  background: #FFFFFF;
+  border-color: 1px solid #DE7A22; }
+
+/*Components*/
+/* import de polices google fonts */
+/* import des icons Bootstraps */
+/* Jumbotron */
+#jumbotron {
+  background: linear-gradient(#F4CC70, #E7DAC1);
+  font-family: 'Poppins', sans-serif; }
+
+#more {
+  background-color: white;
+  color: #DE7A22;
+  border-color: #DE7A22;
+  transition: all ease-in-out 0.5s; }
+
+#more:hover {
+  background-color: #DE7A22;
+  border-color: #716C60;
+  color: #FFFFFF;
+  transition: all ease-in-out 0.5ms; }

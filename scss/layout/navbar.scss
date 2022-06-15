@@ -1,0 +1,25 @@
+@import "scss/components/colors";
+
+/* Menu navigation */
+#menuBar {
+    font-family: 'Radio Canada', sans-serif;
+    box-shadow: 0 0 15px $yellowPrimary;
+}
+
+#logo-SP {
+    border-radius: 50px;
+    box-shadow: 0 0 10px $greyDark;
+    width: 70%;
+    z-index: 1rem;
+}
+
+nav {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+#btnNav:hover {
+    color: $orangeDark;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.5s;
+}

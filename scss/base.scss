@@ -1,0 +1,10 @@
+@import 'scss/components/colors';
+
+/* CSS liés au body et HTML général*/
+html, body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: $yellowPrimary;
+}
