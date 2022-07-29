@@ -8,7 +8,7 @@ html, body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: #F4CC70; }
+  background-color: white; }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
@@ -110,20 +110,20 @@ footer {
   transition: 0.5s; }
 
 #newsletter {
-  background: linear-gradient(#A28C76, #DE7A22, #F4CC70);
+  background: #A28C76;
   width: 100%;
   margin-left: 0;
   margin-right: 0; }
 
-#newsletter > h3 {
+#newsletter, h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: black; }
+  color: #F4CC70; }
 
 #newsletter {
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
-  color: black; }
+  color: white; }
 
 #emailContact {
   width: 40%;
@@ -142,21 +142,25 @@ footer {
   box-shadow: 5px 5px 15px #DE7A22; }
 
 #supportUs {
-  background: linear-gradient(#F4CC70, #A28C76);
+  background-color: rgba(113, 108, 96, 0.1);
   width: 100%;
   margin-left: 0;
   margin-right: 0; }
+  #supportUs p {
+    color: #716C60;
+    font-weight: 600; }
+  #supportUs h3 {
+    color: #FFB064; }
 
 #btnSupport {
-  background-color: #DE7A22;
-  color: #FFFFFF;
+  background-color: #F4CC70;
+  color: #716C60;
   transition: all ease 0.5s; }
 
 #btnSupport:hover {
   transform: scale(1.1);
   transition: all ease 0.5s;
-  border: 1px solid #DE7A22;
-  box-shadow: 5px 5px 15px #F4CC70; }
+  box-shadow: 5px 5px 10px white; }
 
 /* Page nos actions */
 .actions_1 {
@@ -186,12 +190,16 @@ footer {
   background: #FFFFFF;
   border-color: 1px solid #DE7A22; }
 
+/* Page nous rejoindre */
+.container-form {
+  background-color: rgba(113, 108, 96, 0.1); }
+
 /*Components*/
 /* import de polices google fonts */
 /* import des icons Bootstraps */
 /* Jumbotron */
 #jumbotron {
-  background: linear-gradient(#F4CC70, #E7DAC1);
+  background: linear-gradient(#E7DAC1, white);
   font-family: 'Poppins', sans-serif; }
 
 #more {

@@ -57,22 +57,22 @@
 }
 
 #newsletter {
-    background:linear-gradient($brownLight, $orangeDark, $yellowPrimary);
+    background:$brownLight;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
 }
 
-#newsletter>h3 {
+#newsletter, h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    color: black;
+    color: $yellowPrimary;
 }
 
 #newsletter {
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: white;
 }
 
 #emailContact {
@@ -95,22 +95,28 @@
 }
 
 #supportUs {
-    background:linear-gradient($yellowPrimary, $brownLight);
+    background-color: rgba($greyDark, $alpha: 0.1);
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    p {
+        color: $greyDark;
+        font-weight: 600;
+    }
+    h3 {
+        color: $orangeLight;
+    }
 }
 
 #btnSupport {
-    background-color: $orangeDark;
-    color: #FFFFFF;
+    background-color: $yellowPrimary;
+    color: $greyDark;
     transition: all ease 0.5s;
 }
 
 #btnSupport:hover {
     transform: scale(1.1);
     transition: all ease 0.5s;
-    border: 1px solid $orangeDark; 
-    box-shadow: 5px 5px 15px $yellowPrimary;
+    box-shadow: 5px 5px 10px white;
    
 }
