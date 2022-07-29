@@ -3,56 +3,73 @@
 /* CSS liés au body et HTML général*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Radio+Canada&family=Rubik:wght@300;400&family=Ubuntu:wght@300;400&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-html, body {
+
+html,
+body {
   font-family: 'Rubik', sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: white; }
+  background-color: white;
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) {
   #illustration {
-    margin-top: 30px; }
+    margin-top: 30px;
+  }
+
   #carousel {
-    margin-top: 30px; } }
+    margin-top: 30px;
+  }
+}
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   #logo-SP {
-    margin-top: 30px; } }
+    margin-top: 30px;
+  }
+}
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   #logo-SP {
-    margin-top: 30px; } }
+    margin-top: 30px;
+  }
+}
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
   #logo-SP {
-    margin-top: 30px; } }
+    margin-top: 30px;
+  }
+}
 
 /*Layout*/
 /* Menu navigation */
 #menuBar {
   font-family: 'Radio Canada', sans-serif;
-  box-shadow: 0 0 15px #F4CC70; }
+  box-shadow: 0 0 15px #F4CC70;
+}
 
 #logo-SP {
   border-radius: 50px;
   box-shadow: 0 0 10px #716C60;
   width: 70%;
-  z-index: 1rem; }
+  z-index: 1rem;
+}
 
 nav {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-  height: 70px; }
+  height: 70px;
+}
 
 #btnNav:hover {
   color: #DE7A22;
   font-weight: 600;
   transform: scale(1.1);
-  transition: all ease-in-out 0.5s; }
+  transition: all ease-in-out 0.5s;
+}
 
 /* Footer */
 footer {
@@ -61,36 +78,49 @@ footer {
   font-size: 0.8rem;
   font-weight: 400;
   color: #FFFFFF;
-  background-color: black; }
+  background-color: black;
+}
 
 /* Pages */
 /* Page accueil */
-#lastPost, #nextEvent, #volunteerPost {
-  box-shadow: 5px 10px 15px #716C60; }
+#lastPost,
+#nextEvent,
+#volunteerPost {
+  box-shadow: 5px 10px 15px #716C60;
+}
 
 #lastPost {
   background: url("img/event/people.jpg");
   background-position: center;
-  object-fit: contain; }
+  object-fit: contain;
+}
 
 #nextEvent {
   background: url("img/event/coming-soon.jpg");
   background-position: center;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
 #volunteerPost {
   background: url("img/event/hand.jpg");
   background-position: center;
-  object-fit: cover; }
+  object-fit: cover;
+}
 
-#lastPost > h3, #nextEvent > h3, #volunteerPost > h3 {
+#lastPost>h3,
+#nextEvent>h3,
+#volunteerPost>h3 {
   font-weight: 600;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+}
 
-#lastPost > p, #nextEvent > p, #volunteerPost > p {
+#lastPost>p,
+#nextEvent>p,
+#volunteerPost>p {
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
-  color: #E7DAC1; }
+  color: #E7DAC1;
+}
 
 #btnLire {
   background-color: #A28C76;
@@ -102,97 +132,120 @@ footer {
   font-size: 15px;
   border-radius: 50px;
   text-align: center;
-  border: none; }
+  border: none;
+}
 
 #btnLire:hover {
   background-color: #DE7A22;
   color: white;
-  transition: 0.5s; }
+  transition: 0.5s;
+}
 
 #newsletter {
   background: #A28C76;
   width: 100%;
   margin-left: 0;
-  margin-right: 0; }
+  margin-right: 0;
+}
 
-#newsletter, h3 {
+#newsletter,
+h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  color: #F4CC70; }
+  color: #F4CC70;
+}
 
 #newsletter {
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
-  color: white; }
+  color: white;
+}
 
 #emailContact {
   width: 40%;
-  align-items: center; }
+  align-items: center;
+}
 
-#emailContact > button {
+#emailContact>button {
   background-color: #F4CC70;
   color: black;
   text-align: end;
-  transition: all ease 0.5s; }
+  transition: all ease 0.5s;
+}
 
-#emailContact > button:hover {
+#emailContact>button:hover {
   transform: scale(1.1);
   transition: all ease 0.5s;
   text-decoration: dashed;
-  box-shadow: 5px 5px 15px #DE7A22; }
+  box-shadow: 5px 5px 15px #DE7A22;
+}
 
 #supportUs {
   background-color: rgba(113, 108, 96, 0.1);
   width: 100%;
   margin-left: 0;
-  margin-right: 0; }
-  #supportUs p {
-    color: #716C60;
-    font-weight: 600; }
-  #supportUs h3 {
-    color: #FFB064; }
+  margin-right: 0;
+}
+
+#supportUs p {
+  color: #716C60;
+  font-weight: 600;
+}
+
+#supportUs h3 {
+  color: #FFB064;
+}
 
 #btnSupport {
   background-color: #F4CC70;
   color: #716C60;
-  transition: all ease 0.5s; }
+  transition: all ease 0.5s;
+}
 
 #btnSupport:hover {
   transform: scale(1.1);
   transition: all ease 0.5s;
-  box-shadow: 5px 5px 10px white; }
+  box-shadow: 5px 5px 10px white;
+}
 
 /* Page nos actions */
 .actions_1 {
   background-image: url("img/event/pencils.jpg");
   background-size: cover;
-  box-shadow: 5px 5px 15px #716C60; }
+  box-shadow: 5px 5px 15px #716C60;
+}
 
 .actions_2 {
   background-image: url("img/event/louvre.jpg");
   background-size: cover;
-  box-shadow: 5px 5px 15px #716C60; }
+  box-shadow: 5px 5px 15px #716C60;
+}
 
 .actions_3 {
   background-image: url("img/event/braderie2.jpeg");
   background-size: cover;
-  box-shadow: 5px 5px 15px #716C60; }
+  box-shadow: 5px 5px 15px #716C60;
+}
 
 #contribution {
-  background: linear-gradient(#E7DAC1, #F4CC70); }
+  background: linear-gradient(#E7DAC1, #F4CC70);
+}
 
 .support_1 {
   background-image: url("img/event/benevole.jpg");
   background-size: cover;
-  transition: all 1s; }
+  transition: all 1s;
+}
 
 #carte {
   background: #FFFFFF;
-  border-color: 1px solid #DE7A22; }
+  border-color: 1px solid #DE7A22;
+}
 
 /* Page nous rejoindre */
 .container-form {
-  background-color: rgba(113, 108, 96, 0.1); }
+  background-color: rgba(113, 108, 96, 0.1);
+}
 
 /*Components*/
 /* import de polices google fonts */
@@ -200,16 +253,19 @@ footer {
 /* Jumbotron */
 #jumbotron {
   background: linear-gradient(#E7DAC1, white);
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+}
 
 #more {
   background-color: white;
   color: #DE7A22;
   border-color: #DE7A22;
-  transition: all ease-in-out 0.5s; }
+  transition: all ease-in-out 0.5s;
+}
 
 #more:hover {
   background-color: #DE7A22;
   border-color: #716C60;
   color: #FFFFFF;
-  transition: all ease-in-out 0.5ms; }
+  transition: all ease-in-out 0.5ms;
+}
